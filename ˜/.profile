@@ -1,8 +1,7 @@
-export POSTGRES_USERNAME=udagramkunledev
-export POSTGRES_PASSWORD=udagramkunledev
-export POSTGRES_DATABASE=udagramkunledev
-export POSTGRES_HOST=udagramkunledev.crjvto1mi17g.us-east-1.rds.amazonaws.com
+export POSTGRES_USERNAME=yourpostgrescredential
+export POSTGRES_PASSWORD=yourpostgrescredential
+export POSTGRES_DATABASE=yourpostgrescredential
+export POSTGRES_HOST=yourpostgrescredential
  
-export AWS_REGION=us-east-1
-export AWS_PROFILE=default
-export AWS_MEDIA_BUCKET=udagram-kunle-dev
+export AWS_REGION=yourawscredential
+export AWS_MEDIA_BUCKET=yourawsS3credential
