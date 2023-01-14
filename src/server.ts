@@ -7,6 +7,9 @@ import bodyParser from 'body-parser';
 
 import { V0MODELS } from './controllers/v0/model.index';
 
+import * as dotenv from 'dotenv'
+dotenv.config();
+
 (async () => {
   await sequelize.addModels(V0MODELS);
   await sequelize.sync();
